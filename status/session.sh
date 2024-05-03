@@ -3,7 +3,7 @@ show_session() {
 
   index=$1
   icon=$(get_tmux_option "@catppuccin_session_icon" "")
-  color=$(get_tmux_option "@catppuccin_session_color" "#{?client_prefix,#ebcb8b,#D8DEE9}")
+  color=$(get_tmux_option "@catppuccin_session_color" "#{?client_prefix,#88c0d0,#a3be8c}")
   text=$(get_tmux_option "@catppuccin_session_text" "#S")
 
   module=$(build_status_module "$index" "$icon" "$color" "$text")
